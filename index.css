@@ -1,0 +1,109 @@
+/*font-style*/
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+/*shared style*/
+.section-align{
+    text-align: center;
+
+}
+/*header styles*/
+.header{
+ background-image:linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url('./resources/Banner\ Image.png');
+ border-radius: 16px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border-radius: 16px;
+  background-position: center;
+   height: 400px;
+   justify-content: center;
+   margin-top: 50px;
+}
+.header-class{
+
+
+    padding: 177px 340px 200px 340px;
+    
+}
+
+.header-title{
+    color: rgba(255, 255, 255, 1);
+font-size: 32px;
+font-weight: 400;
+}
+.header-sub-title{
+    color: rgba(255, 255, 255, 1);
+font-size: 72px;
+font-weight: 900;
+}
+
+/*holiday-deals-styles*/
+.holiday-deals-section{
+    margin-top: 100px;
+    justify-items: center;
+}
+.holiday-deals{
+    color: rgba(255, 0, 0, 1);
+font-size: 88px;
+font-weight: 700;
+}
+.holiday-deals-title{
+    color: rgba(255, 0, 0, 1);
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-deals-sub-title{
+    color: rgba(7, 2, 17, 1);
+font-size: 48px;
+font-weight: 700;
+}
+
+/*midnight styles*/
+.midnight-section a{
+text-decoration: none;
+color: rgba(255, 255, 255, 1);
+font-size: 20px;
+font-weight: 700;
+}
+.midnight-section{
+    margin-top: 120px;
+    background-image: url('./resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    background-position:center;
+}
+.midnight-div-one{
+    width:600px;
+    margin-right:40px;
+    margin-left: 126px;
+    margin-top: 126px;
+}
+.midnight-div-two{
+    margin: 69px 138px;
+}
+
+.midnight-greetings{
+    color: rgba(255, 255, 255, 1);
+font-size: 64px;
+font-weight: 900;
+}
+.midnight-description{
+    color: rgba(255, 255, 255, 0.8);
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
