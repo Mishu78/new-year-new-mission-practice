@@ -22,14 +22,13 @@
 }
 /*header styles*/
 .header{
- background-image:linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url('./resources/Banner\ Image.png');
+ background-image:linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 90%), url('./resources/Banner\ Image.png');
  border-radius: 16px;
    background-repeat: no-repeat;
    background-size: contain;
    border-radius: 16px;
   background-position: center;
-   height: 400px;
-   justify-content: center;
+   justify-self: center;
    margin-top: 50px;
 }
 .header-class{
@@ -107,3 +106,154 @@ font-size: 18px;
 font-weight: 400;
 text-align: left;
 }
+
+/*meeting-section*/
+.meeting-section{
+    text-align: center;
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+width: 1320px;
+height:480px;
+background-position: center;
+align-content: center;
+margin-top: 120px;
+justify-self: center;
+}
+.meeting-place,.meeting-date,.meeting-time{
+    color:rgba(7, 2, 17, 1);
+    font-size: 32px;
+font-weight: 600;
+}
+.meeting-button{
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+background: rgba(255, 0, 0, 1);
+font-size: 20px;
+font-weight: 700;
+}
+
+/*best-offer-section*/
+.best-offer-section{
+    margin-top: 120px;;
+    display: flex;
+    justify-self: center;
+}
+.best-offer-div-one{
+    display: flex;
+  margin-right: 118px;
+}
+.best-offer-one{
+    color: rgba(7, 2, 17, 1);
+    width: 393px;
+font-size: 48px;
+font-weight: 900;
+margin-right: 70px;
+}
+.best-offer-three{
+    width:270px;
+}
+
+.best-offer-two{
+    border-radius: 190px;
+    box-sizing: border-box;
+border:15px solid rgba(255, 0, 0, 1);
+}
+.offer-title{
+    color: rgba(255, 0, 0, 1);
+font-size: 24px;
+font-weight: 500;
+}
+
+.offer-sub-title{
+    color: rgba(7, 2, 17, 1);
+font-size: 48px;
+font-weight: 900;
+}
+
+.offer-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+}
+.offer-year{
+    color: rgba(255, 0, 0, 1);
+font-size: 48px;
+font-weight: 700;
+}
+
+/*holiday-sale section*/
+.holiday-sale{
+    margin-top: 120px;
+}
+.holiday-sale-sub-title{
+color: rgba(7, 2, 17, 1);
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-sale-title{
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-sale-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 500;
+}
+.holiday-sale-div{
+    text-align: center;
+}
+
+/*gift-item styles*/
+.gift-title{
+    color: rgba(255, 0, 0, 1);
+font-size: 24px;
+font-weight: 500;
+}
+.gift-sub-title{
+    color: rgba(7, 2, 17, 1);
+font-size: 48px;
+font-weight: 900;
+}
+.gift-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+}
+.gift-item-div{
+    text-align: left;
+    justify-self: center;
+}
+.gift-item-section{
+    margin-top: 120px;
+}
+.gift-items{
+    justify-self: center;
+}
+ td{
+    padding-right: 24px;
+    padding-top: 22px;
+    }
+
+    /*subscribe-section*/
+    .subscribe-section{
+        margin-top:120px;
+        justify-items: center;
+        text-align: center;
+        
+    }
+    .subscribe-form{
+        border-radius: 50px;
+background: rgba(255, 255, 255, 1);
+gap: 0px;
+    }
+    .subscription-text{
+        padding:25px 267px 25px 30px;
+    }
+    .subscription-button{
+        border-radius: 0px 50px 50px 0px;
+        background-color: rgba(255, 0, 0, 1);
+        color: white;
+        text-align: center;
+        padding:25px 50px;
+       
+    }
